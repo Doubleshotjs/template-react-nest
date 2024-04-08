@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="800" src="./screenshot.png" alt="screenshot">
+    <img width="800" src="./screenshot_react.png" alt="screenshot">
 </p>
 
 <br>
