@@ -1,13 +1,18 @@
 import { Window } from '@doubleshot/nest-electron'
 import { Injectable } from '@nestjs/common'
-import { screen, dialog, BrowserWindow } from 'electron'
+import { screen, dialog, BrowserWindow, shell } from 'electron'
 import fs from "fs"
 
 @Injectable()
 export class AppService {
   constructor(
     @Window() private readonly mainWin: BrowserWindow,
-  ) { }
+  ) {
+    this.mainWin.webContents.setWindowOpenHandler(({ url }) => {
+      shell.openExternal(url)
+      return { action: 'deny' }
+    })
+  }
 
   public getScaleFactor(): number {
     const { scaleFactor } = screen.getPrimaryDisplay()
