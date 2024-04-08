@@ -1,0 +1,57 @@
+@import url('https://fonts.font.im/css?family=Dosis:700,600');
+
+body {
+  margin: 0;
+}
+
+#root {
+  font-family: Dosis, Avenir, Helvetica, Arial, sans-serif;
+  background-color: rgb(242, 244, 246);
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  --react-color: #087ea4;
+  --nestjs-color: #ea2845;
+}
+
+.logo-block {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 120px;
+  left: 50%;
+}
+
+.frame-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame-logos .with {
+  font-size: 30px;
+  margin: 0 16px;
+  color: #9ca3af;
+}
+
+.frame-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.frame-info img {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.react-name {
+  font-weight: 600;
+  color: var(--react-color);
+}
+
+.nestjs-name {
+  font-weight: 600;
+  color: var(--nestjs-color);
+}

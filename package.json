@@ -1,0 +1,12 @@
+{
+  "name": "doubleshot-vue-nest-starter",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "dsr dev",
+    "build": "rimraf dist && dsr build"
+  },
+  "devDependencies": {
+    "@doubleshot/runner": "^0.0.11"
+  }
+}

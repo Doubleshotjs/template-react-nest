@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "private": true,
+  "version": "0.0.0",
+  "main": "backend/main.js",
+  "scripts": {
+    "dev": "dsb dev -t electron",
+    "build": "dsb build -t electron"
+  },
+  "dependencies": {
+    "@doubleshot/nest-electron": "0.2.5",
+    "@nestjs/common": "^10.3.7",
+    "@nestjs/core": "^10.3.7",
+    "@nestjs/microservices": "^10.3.7",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@doubleshot/builder": "0.0.11",
+    "@types/node": "20.12.5",
+    "electron": "29.2.0",
+    "electron-builder": "24.13.3",
+    "typescript": "5.4.4"
+  }
+}
