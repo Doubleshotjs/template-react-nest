@@ -4,9 +4,9 @@
 
 <br>
 
-## Template with <font color="#42b983">Vue.js</font> + <font color="#ea2845">Nestjs</font>
+## Template with <font color="#087ea4">React</font> + <font color="#ea2845">Nestjs</font>
 
-This template uses [Vue.js](https://vuejs.org/) and [Vite](https://vitejs.dev/) for the frontend part and [NestJS](https://nestjs.com/) in [Electron](https://www.electronjs.org/) for the backend (main process) part. And it's powered by [**<font color="#24b574">Double</font><font color="#995735">Shot</font>**](https://github.com/Doubleshotjs/doubleshot).
+This template uses [React](https://react.dev/) and [Vite](https://vitejs.dev/) for the frontend part and [NestJS](https://nestjs.com/) in [Electron](https://www.electronjs.org/) for the backend (main process) part. And it's powered by [**<font color="#24b574">Double</font><font color="#995735">Shot</font>**](https://github.com/Doubleshotjs/doubleshot).
 
 ## How to use
 
