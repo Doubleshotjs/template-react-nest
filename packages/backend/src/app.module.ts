@@ -12,6 +12,8 @@ import { AppService } from './app.service'
       const win = new BrowserWindow({
         width: 1200,
         height: 800,
+        minWidth: 600,
+        minHeight: 400,
         autoHideMenuBar: true,
         webPreferences: {
           contextIsolation: true,
