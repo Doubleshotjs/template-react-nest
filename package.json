@@ -7,7 +7,7 @@
     "build": "rimraf dist && dsr build"
   },
   "devDependencies": {
-    "@doubleshot/runner": "^0.0.16"
+    "@doubleshot/runner": "^0.0.17"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
