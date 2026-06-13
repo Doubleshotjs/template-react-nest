@@ -32,7 +32,7 @@ export class AppService {
       return "canceled"
     }
 
-    // 从 url 形式的 image base64 转换为 buffer
+    // Convert the image base64 data URL to a buffer.
     const buffer = Buffer.from(image.replace(/^data:image\/\w+;base64,/, ""), 'base64')
     fs.writeFileSync(filePath, buffer)
     return "success"
