@@ -1,2 +1,11 @@
 packages:
   - 'packages/*'
+onlyBuiltDependencies:
+  - '@nestjs/core'
+  - '@swc/core'
+  - electron
+  - electron-winstaller
+  - esbuild
+allowBuilds:
+  electron-winstaller: true
+  esbuild: true
